@@ -1,0 +1,65 @@
+:root {
+  --color-brand-dark: #011c44;
+  --color-brand-light: #2b7fff;
+}
+
+/*base*/
+
+body {
+  color: var(--color-brand-dark);
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*button*/
+
+.button {
+  color: #ffffff;
+  background-color: var(--color-brand-light);
+  border-radius: 32px;
+  border: 2px solid var(--color-brand-light);
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--color-brand-dark);
+  background-color: transparent;
+  border-radius: 32px;
+  border: 2px solid var(--color-brand-light);
+}
+
+/*link*/
+
+.link {
+  color: var(--color-brand-dark);
+}
+
+.link:hover {
+  color: var(--color-brand-light);
+}
+
+/*hero-section*/
+
+.hero-title {
+  color: var(--color-brand-light);
+  font-family: 'play', sans-serif;
+  font-size: 140px;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.section-title {
+  color: var(--color-brand-dark);
+}
+
+span.accent,
+.accent-beauty {
+  color: var(--color-brand-light);
+}
+
+span.capitalize,
+span.accent-beauty {
+  text-transform: capitalize;
+}
