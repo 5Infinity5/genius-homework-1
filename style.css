@@ -7,6 +7,10 @@
 
 body {
   color: var(--color-brand-dark);
+  font-family: 'Roboto' sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
 }
 
 ul {
@@ -17,6 +21,7 @@ ul {
 
 .button {
   color: #ffffff;
+  font-weight: 600;
   background-color: var(--color-brand-light);
   border-radius: 32px;
   border: 2px solid var(--color-brand-light);
@@ -34,10 +39,12 @@ ul {
 
 .link {
   color: var(--color-brand-dark);
+  text-decoration: none;
 }
 
 .link:hover {
   color: var(--color-brand-light);
+  font-weight: 700;
 }
 
 /*hero-section*/
@@ -46,12 +53,21 @@ ul {
   color: var(--color-brand-light);
   font-family: 'play', sans-serif;
   font-size: 140px;
+  font-weight: 700;
+  line-height: 0, 81;
   text-align: left;
   text-transform: capitalize;
 }
 
-.section-title {
+.section-title,
+.section-title-two {
   color: var(--color-brand-dark);
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.section-title-two {
+  text-align: center;
 }
 
 span.accent,
@@ -62,4 +78,26 @@ span.accent,
 span.capitalize,
 span.accent-beauty {
   text-transform: capitalize;
+}
+
+.one {
+  color: #4a4a4a;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.two {
+  font-size: 22px;
+  line-height: 1.73;
+}
+
+div {
+  color: #000;
+  line-height: 1.3;
+  text-align: center;
+}
+
+footer {
+  color: #fff;
+  font-size: 16px;
 }
