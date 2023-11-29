@@ -7,7 +7,7 @@
 
 body {
   color: var(--color-brand-dark);
-  font-family: 'Roboto' sans-serif;
+  font-family: "Roboto" sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: normal;
@@ -47,11 +47,28 @@ ul {
   font-weight: 700;
 }
 
+.link2,
+.address-link {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.link2:hover,
+.address-link:hover {
+  color: var(--color-brand-light);
+}
+
+.adress-copyright {
+  color: #747272;
+  font-size: 13px;
+}
+
 /*hero-section*/
 
 .hero-title {
   color: var(--color-brand-light);
-  font-family: 'play', sans-serif;
+  font-family: "play", sans-serif;
   font-size: 140px;
   font-weight: 700;
   line-height: 0, 81;
@@ -98,6 +115,5 @@ div {
 }
 
 footer {
-  color: #fff;
-  font-size: 16px;
+  background: #011c44;
 }
